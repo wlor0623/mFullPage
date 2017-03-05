@@ -1,0 +1,3 @@
+.swiper-box{position: absolute;top: 0;right: 0;bottom: 0;left: 0;overflow: hidden;}
+.swiper-inner{-webkit-transform: translate3d(0,0,0);-webkit-transition: all 0.3s ease;}
+.page{font-size:30px;color:#FFF;position: relative;}
