@@ -6,8 +6,6 @@
 可实现移动端的单页滚动效果，提供回调接口，和公开接口。
 
 ## 快速上手
-### HTML
-
 	<link rel="stylesheet" href="css/fullPage.css">
 	<style>
         .page1{background: red;}
