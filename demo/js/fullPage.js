@@ -23,6 +23,8 @@
         constructor:F,
         initData:function () {
             var pages=Array.prototype.slice.call(this.page);
+            pages[this.index].classList.add("active");
+            this.slide(-this.index*this.h);
             for (var i=0;i<pages.length;i++){
                 pages[i].index=i;//设置页面下标
                 pages[i].style.height=this.h+'px';
@@ -87,6 +89,8 @@
          * @param yPx 滑动距离
          */
         slide:function (yPx) {
+            this.ele.querySelector(".active").classList.remove("active");
+            this.page[this.index].classList.add("active");
             this.ele.style.webkitTransform='translate3d(0px, ' + yPx + 'px, 0px)';
             this.ele.style.transform='translate3d(0px, ' + yPx + 'px, 0px)';
         },

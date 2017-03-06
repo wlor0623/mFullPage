@@ -1,0 +1,8 @@
+body{text-align: center;}
+.page1,.page2,.page3,.page4{
+    font-size: 50px;
+}
+.page1{background: red;}
+.page2{background: blue;}
+.page3{background: pink;}
+.page4{background: firebrick;}
